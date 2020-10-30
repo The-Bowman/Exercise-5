@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(approximatePiForm));
             this.calculateButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -105,6 +106,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.calculateButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "approximatePiForm";
             this.Text = "Approximate Pi";
             this.ResumeLayout(false);
